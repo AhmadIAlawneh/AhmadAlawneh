@@ -1,0 +1,13 @@
+First i want to thank you for the orginaized work, it shows how much you cares and want to learn.
+
+Task 1 :
+The Rectangle Bellow ISCOSOFT containing the company name, was supposed to be a title for the text, showing only when hovering over the text.
+You did much harder job with that
+Otherwise Perfect.
+
+Task 2 :
+Tables and last Div are overstreched, you had the right idea but missed the value, make them 50% width instead of 100%
+Otherwise Great Work
+
+Task 3 : 
+No Comment, Perfect.
