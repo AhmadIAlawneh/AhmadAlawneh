@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            display: block;
+        width: 25%;
+        height: 150px;
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+    function changeStyle(){
+        document.getElementById("text1").style.fontSize="25px";
+        document.getElementById("text1").style.color = "blue";
+  document.getElementById("text1").style.backgroundColor = "yellow";
+    }
+
+    function selectImg(img){
+if(img===1){
+document.getElementById("mainImg").src='../../../assets/Google-Logo.png'
+document.getElementById('clickedButton').innerHTML="GOOGLE"
+}
+else if(img===2){
+document.getElementById("mainImg").src='../../../assets/Microsoft.jpg'
+    document.getElementById('clickedButton').innerHTML="MICROSOFT"
+}
+else{
+    document.getElementById("mainImg").src='../../../assets/company logo.png'
+    document.getElementById('clickedButton').innerHTML="ISCOSOFT"
+}
+}
+</script>
+</head>
+
+<body>
+    <h2>Isra Software & Computer Co.</h2>
+    <p id ="text1">Isra Software and Computer Company was established in 1997 in Nablus as a specialized in the
+        <br>
+         production of software at palestine and Arab Countries.
+    </p>
+    <button onclick="changeStyle()">
+        Change text style 
+    </button>
+
+    <img src="../../../assets/company logo.png" alt="" id="mainImg">
+
+    <button onclick="selectImg(3)">
+ISCOSOFT
+    </button>
+    <button onclick="selectImg(1)">
+        GOOGLE
+    </button>
+    <button onclick="selectImg(2)">
+        MICROSOFT
+    </button>
+    <p>Clicked button:<span id="clickedButton">ISCOSOFT</span></p>
+    
+</body>
+</html>
