@@ -1,0 +1,21 @@
+@import "cssEn.scss";
+
+$arab-img-margin:0px;
+
+html, body {
+    direction: rtl;
+}
+
+img {
+    margin-left: 300px;
+    margin-right: $arab-img-margin;
+
+}
+
+h1, h2 {
+    font-family: $arab-font;
+}
+
+h2 {
+    font-size: 30px;
+}
