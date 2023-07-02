@@ -1,0 +1,33 @@
+h1 {
+    border-top: 4px solid ;
+    width: fit-content;
+}
+
+h2 {
+    
+    text-decoration: line-through;
+}
+
+h3 {
+    text-decoration-line: underline;
+}
+
+.upper-case {
+    text-transform: uppercase;
+}
+
+.lower-case {
+    text-transform:lowercase;
+}
+.capital {
+    text-transform: capitalize;
+}
+
+div {
+    width: 300px;
+    background-color: lightgrey;
+    margin:50px;
+    padding :50px;
+    border:20px solid blue
+
+}
