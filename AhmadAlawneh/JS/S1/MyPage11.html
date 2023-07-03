@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Page11.css">
+    <title>Page11</title>
+    <script src=
+    "https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.js"></script>
+
+</head>
+<body>
+    <h1>My Calculator</h1>
+    <table id="calculator">
+        <tr>
+            <td colspan="3"><input type="text" id="result"></td>
+            <td><input type="button" class="clear-button" value="c" onclick="clearResult()" /></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" onclick="dis('1')" onkeydown="handleKeyPress(event)"></td>
+            <td><input type="button" value="2" onclick="dis('2')" onkeydown="handleKeyPress(event)"></td>
+            <td><input type="button" value="3" onclick="dis('3')" onkeydown="handleKeyPress(event)"></td>
+            <td><input type="button" value="/" onclick="dis('/')" onkeydown="handleKeyPress(event)"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" onclick="dis('4')" onkeydown="handleKeyPress(event)"></td>
+            <td><input type="button" value="5" onclick="dis('5')" onkeydown="handleKeyPress(event)"></td>
+            <td><input type="button" value="6" onclick="dis('6')" onkeydown="handleKeyPress(event)"></td>
+            <td><input type="button" value="*" onclick="dis('*')" onkeydown="handleKeyPress(event)"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" onclick="dis('7')" onkeydown="handleKeyPress(event)"></td>
+            <td><input type="button" value="8" onclick="dis('8')" onkeydown="handleKeyPress(event)"></td>
+            <td><input type="button" value="9" onclick="dis('9')" onkeydown="handleKeyPress(event)"></td>
+            <td><input type="button" value="-" onclick="dis('-')" onkeydown="handleKeyPress(event)"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="0" onclick="dis('0')" onkeydown="handleKeyPress(event)"></td>
+            <td><input type="button" value="." onclick="dis('.')" onkeydown="handleKeyPress(event)"></td>
+            <td><input type="button" class="equal-button" value="=" onclick="evaluateExpression()"></td>
+            <td><input type="button" value="+" onclick="dis('+')" onkeydown="handleKeyPress(event)"></td>
+        </tr>
+    </table>
+    <script src="index.js"></script>
+</body>
+</html>
