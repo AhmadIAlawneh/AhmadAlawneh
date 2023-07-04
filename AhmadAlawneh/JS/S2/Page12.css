@@ -1,0 +1,14 @@
+p {
+  text-align: center;
+}
+
+table {
+  border: 1px solid gray;
+  margin: 20px auto;
+}
+table tr td {
+  border: 1px solid gray;
+}
+table tr td .Multi {
+  margin-right: 5px;
+}/*# sourceMappingURL=Page12.css.map */

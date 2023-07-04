@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Page12.css">
+    <title>Document</title>
+</head>
+<body>
+    <p>Calculate multiplication and division of two Numbers</p>
+    <table class="mult-didvison-table">
+            <tr>
+                <td>First Number:</td>
+                <td><input type="text" id="first-number"></td>
+            </tr>
+            <tr>
+                <td>Second Number:</td>
+                <td><input type="text" id="second-number"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td >
+                    <input class="Multi" type="button" value="Multiply" onclick="multiply()">
+                    <input type="button" value="Divide" onclick="divide()">
+                </td>
+            </tr>
+            <tr>
+                <td>The result is </td>
+                <td ><span id="display1"></span></td>
+            </tr>
+        </table>
+
+        <p>Convert temperatures to and from Celsius, fahrenheit </p>
+    <table>
+            <tr>
+                <td>Celsius</td>
+                <td><input type="text" id="celsius-degree"></td>
+            </tr>
+            <tr>
+                <td>Fahrenheit</td>
+                <td><input type="text" id="fahrenheit-degree"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td ><input class="Convert" type="button" value="Convert" onclick=" convert()">
+            </tr>
+            <tr>
+                <td >The result is </td>
+                <td><span id="display2"></span></td>
+            </tr>
+        </table>
+<script src="index.js"></script>
+</body>
+</html>

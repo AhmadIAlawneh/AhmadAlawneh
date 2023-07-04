@@ -1,0 +1,17 @@
+p{
+    text-align: center;
+}
+
+table{
+    border: 1px solid gray;
+    margin: 20px auto;
+    tr{
+        td{
+            border: 1px solid gray;
+            .Multi{
+                margin-right: 5px;
+            }
+        }
+    }
+    
+}
