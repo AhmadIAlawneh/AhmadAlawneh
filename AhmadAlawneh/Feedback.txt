@@ -25,3 +25,22 @@ Task 6 :
 you did MUCH HARDER job with that
 and you did it PERFECT
 Thank You
+
+Task 7 : 
+No Comment, Perfect.
+
+Task 8 :
+No Comment, Perfect.
+
+Task 9 :
+when using : selectors seperated by comma, you need to specify the component again
+instead of a:link, :visited it should be a:link, a:visited
+not specifing takes the whole document
+Otherwise Perfect
+
+Task 10 : 
+No Comment, Perfect.
+
+Task 11 :
+This Is The Defining Work of "Minimum Code"
+MORE THAN PERFECT, Good Job.
