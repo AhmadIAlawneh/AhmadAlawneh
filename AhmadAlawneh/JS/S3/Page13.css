@@ -1,0 +1,15 @@
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+table tr td {
+  border: 1px solid gray;
+}
+table tr td img {
+  width: 170px;
+  height: 180px;
+}/*# sourceMappingURL=Page13.css.map */
