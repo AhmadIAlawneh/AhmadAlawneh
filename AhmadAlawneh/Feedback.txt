@@ -44,3 +44,29 @@ No Comment, Perfect.
 Task 11 :
 This Is The Defining Work of "Minimum Code"
 MORE THAN PERFECT, Good Job.
+
+Task 12 :
+We should also handle dividing by zero, which can cause lots of problems when using the result for future calculations.
+Converting does a nice job refusing if both values are entered, however it have problems when inserting empty values
+small check and alert fix that
+Good Work.
+
+Task 13 :
+Dont forget clearing all fields when user or image arent found.
+Perfect.
+
+Task 14 :
+No Comment, Perfect.
+
+
+
+
+
+
+
+
+
+
+
+
+
