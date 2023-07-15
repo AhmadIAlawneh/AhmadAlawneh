@@ -1,0 +1,458 @@
+:root{
+    box-sizing: border-box;
+}
+.container {
+    max-width: 960px;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 3px;
+}
+
+.navbar-nav a {
+    padding: 0 10px;
+    margin: 15px;
+    color: white !important;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.logo img {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: transparent;
+}
+
+.navbar-right {
+    position: absolute;
+    top: 0px;
+    right: -220px;
+}
+
+.search-section {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search-bar input[type="text"] {
+    margin-left: 50px;
+    border-radius: 40px;
+}
+
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.slide {
+    flex-shrink: 0;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.slider-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.slider-controls button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.slider-arrow {
+    position: absolute;
+    top: 27%;
+    left: 83%;
+    width: 30px;
+    height: 30px;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.slider-arrow.prev {
+    left: 10px;
+}
+
+.slider-arrow.next {
+    right: 10px;
+}
+span{
+    color :white;
+    margin-left: 15px;
+}
+.video-section {
+    width: 100%;
+    height: 400px; /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+.video-section video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.recipe-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-content {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFF0;
+    border-radius: 20px;
+}
+
+.card-content p {
+    margin: 5px;
+}
+
+.resipe{
+    color: white;
+    padding-bottom: 20px;
+    margin: 50px 0 0 450px;
+}
+
+.cooker-section {
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cooker-image {
+    width: 95%;
+    height: auto;
+    object-fit: cover;
+}
+
+.cooker-card {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+}
+
+.cooker-title {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cooker-text {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.cooker-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: background-color 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.cooker-button:hover {
+    background-color: black;
+    color: red;
+    text-decoration: none;
+}
+.card-body{
+    width: fit-content;
+    height: inherit;
+    border :1px solid black;
+    border-radius: 10px ;
+    background-color: white;
+}
+
+.latest-news-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.latest-news-image {
+    flex-shrink: 0;
+    width: 600px;
+    height: 350px;
+    margin-right: 20px;
+}
+
+.latest-news-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.latest-news-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1;
+    max-width: 300px; /* Set the maximum width for the card */
+    height: 350px; /* Set height to occupy available space */
+}
+
+.latest-news-title {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.latest-news-description {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.latest-news-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: background-color 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.latest-news-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.day-recipe-section {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 50px 50px;
+    padding: 30px;
+}
+
+.day-recipe-image {
+    position: relative;
+    width: 40%;
+    height: 40%;
+    margin-right: 20px;
+}
+
+.day-recipe-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.day-recipe-card {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.day-recipe-title {
+    width:fit-content;
+    margin: 5px 0px 0 38px ;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+
+.day-recipe-description {
+    color: black;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.tips-section {
+    background-color: white;
+    flex-grow: 1;
+    margin-left: 20px;
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 250px; /* Set maximum height */
+    padding: 10px;
+}
+
+.tips-title {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.tips-container {
+    display: flex;
+    flex-direction: column; /* Arrange tips vertically */
+    gap: 10px; /* Add gap between tips */
+}
+
+.tip-card {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.tip-card:not(:last-child) {
+    border-bottom: 1px solid #ddd; /* Add horizontal line between tips */
+}
+
+.tip-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.tip-description {
+    color: black;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.day-recipe-card-content {
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px 0 0 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 220px;
+    height: 220px;
+}
+.day-recipe-card-content{
+    text-align: center;
+    border: 1px solid black;
+    margin:5px 0 0 5px;
+    background-color:rgb(255, 255, 255, 0.8);
+    width: 220px;
+    height: 220px;
+}
+.add-tip{
+    margin-left: 36%;
+}
+
+.add-tip h5{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 40px;
+}
+.last-section {
+
+    text-align: center;
+    padding: 20px;
+}
+
+.last-section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-section-logo {
+    width: 200px;
+    height: 200px;
+    /* Adjust the logo size as needed */
+}
+
+.last-section-text {
+    color: white;
+    margin-top: 10px;
+    font-size: 16px;
+    /* Adjust the text styling as needed */
+}
+.news{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
