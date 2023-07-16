@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+        table{
+            width: 100%;
+            border: 1px solid black;
+        }
+
+        
+th, td {
+    
+    border: 1px solid black;
+}
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div id="root">
+
+    </div>
+    <script type="text/babel">
+        class MyComponent extends React.Component{
+            constructor(){
+                super()
+            }
+            render(){
+                return(
+                    <div className="main">
+                        <h1>Isra Software & Computer Co.</h1>
+                        <p>Isra Software and Computer Company was established in 1997 in Nablus as a specialized in the production of software at palestine and Arab Countries.
+
+                            Includes more than 50 employees distributed in the following main departments (Research and Development, Training and Operation, Marketing and Sales, Finance, Audit and Quality).
+
+                            In addition to the company's headquarters in the city of Nablus, the company's branch was opened in Ramallah in 2004 to serve and fllow-up customers in the central and southern regions.</p>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Address</th>
+                                    <th>Age</th>
+                                    <th>Gender</th>
+                                    <th>Mobile</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>ahmad</td>
+                                    <td>azmout</td>
+                                    <td>22</td>
+                                    <td>Male</td>
+                                    <td>1234567890</td>
+                                </tr>
+                                <tr>
+                                    <td>ahmad</td>
+                                    <td>nablus</td>
+                                    <td>25</td>
+                                    <td>Male</td>
+                                    <td>1234567890</td>
+                                </tr>
+                                <tr>
+                                    <td>ahmad</td>
+                                    <td>palestine</td>
+                                    <td>40</td>
+                                    <td>Male</td>
+                                    <td>1234567890</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                );
+            }
+        }
+        ReactDOM.render(<MyComponent />, document.getElementById('root'));
+    </script>
+</body>
+</html>
