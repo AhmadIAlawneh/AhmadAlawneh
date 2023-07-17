@@ -1,0 +1,17 @@
+.button {
+    background-color: rgb(224, 224, 224);
+    border: 1px solid #ccc;
+    color: black;
+    font-size: 1.5rem;
+    height: 90px;
+    width: 90px;
+}
+
+.button.orange {
+    background-color: rgb(245, 146, 62);
+    color: white;
+}
+
+.button.wide {
+    width: 180px;
+}

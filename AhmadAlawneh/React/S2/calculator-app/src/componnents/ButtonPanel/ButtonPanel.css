@@ -1,0 +1,17 @@
+.button-panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.display-row {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button-row {
+    display: flex;
+}
+
+.button-row .button {
+    margin: 4px;
+}
