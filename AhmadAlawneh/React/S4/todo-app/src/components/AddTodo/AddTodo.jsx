@@ -28,7 +28,7 @@ render() {
             onChange={this.handleChange}
             placeholder="Enter a new task"
         />
-        <button type="submit">Add Task</button>
+        <button type="submit">Add Todo</button>
     </form>
     );
 }
