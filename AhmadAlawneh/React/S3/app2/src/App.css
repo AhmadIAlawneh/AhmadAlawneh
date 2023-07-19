@@ -1,0 +1,29 @@
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.component-container {
+    margin-right: 370px;
+    padding: 40px;
+    width: 300px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-label {
+    flex-basis: 100px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.form-input {
+    flex-grow: 1;
+    padding: 5px;
+}
