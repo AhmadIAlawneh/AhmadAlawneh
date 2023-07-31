@@ -69,7 +69,32 @@ Task 17 :
 No Comment, Perfect.
 
 Task 18 :
-BRB
+No Comment, Perfect.
+
+Task 19 :
+No Comment, Perfect.
+
+Task 20 :
+No Comment, Perfect.
+
+Task 21 :
+No Comment, Perfect.
+
+Task 22 :
+No need to give the props App in the index, 
+App passes props to others and it's the top component,
+remove the props passing and it will work file.
+Perfect.
+
+Task 23 :
+Its perfect, the only thing missing is using toasts for the notfications
+dont worry, Good Job.
+
+Task 24 :
+No Comment, Perfect.
+
+Task 25 :
+This one is missing, please send it and notify me.
 
 
 
