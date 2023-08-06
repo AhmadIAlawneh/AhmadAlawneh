@@ -1,0 +1,31 @@
+.navbar-nav {
+    margin: 0 146px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 3px;
+}
+
+.navbar-nav a {
+    text-decoration: none;
+    padding: 0 10px;
+    margin: 15px;
+    color: white !important;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.logo img {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: transparent;
+}
+
+.navbar-right {
+    position: absolute;
+    top: 0px;
+    right: -90px;
+}

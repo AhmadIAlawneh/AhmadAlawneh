@@ -1,0 +1,24 @@
+.last-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.last-section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-section-logo {
+    width: 200px;
+    height: 200px;
+    
+}
+
+.last-section-text {
+    color: white;
+    margin-top: 10px;
+    font-size: 16px;
+
+}

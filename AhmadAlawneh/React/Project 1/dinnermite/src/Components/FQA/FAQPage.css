@@ -1,0 +1,26 @@
+.faq-container {
+    margin: 20px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+/* Additional styling for Bootstrap accordion */
+.accordion-button {
+    background-color: #f8f9fa;
+    color: #333;
+    font-weight: bold;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:hover {
+    background-color: #e9ecef;
+}
+
+.accordion-collapse.collapse.show {
+    border-top: 1px solid #dee2e6;
+}

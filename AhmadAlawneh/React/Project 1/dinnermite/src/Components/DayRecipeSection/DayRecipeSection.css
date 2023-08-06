@@ -1,0 +1,130 @@
+.day-recipe-section {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 50px 50px;
+    padding: 30px;
+}
+
+.day-recipe-image {
+    position: relative;
+    width: 40%;
+    height: 40%;
+    margin-right: 20px;
+}
+
+.day-recipe-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.day-recipe-card {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.day-recipe-title {
+    width: fit-content;
+    margin: 5px 0px 0 38px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+
+.day-recipe-description {
+    color: black;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.tips-section {
+    background-color: white;
+    flex-grow: 1;
+    margin-left: 20px;
+    overflow-y: auto;
+    overflow-x:hidden;
+    /* Enable vertical scrolling */
+    max-height: 250px;
+    /* Set maximum height */
+    padding: 10px;
+}
+
+.tips-title {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.tips-container {
+    display: flex;
+    flex-direction: column;
+    /* Arrange tips vertically */
+    gap: 10px;
+    /* Add gap between tips */
+}
+
+.tip-card {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.tip-card:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+    /* Add horizontal line between tips */
+}
+
+.tip-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.tip-description {
+    color: black;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.day-recipe-card-content {
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px 0 0 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 220px;
+    height: 220px;
+}
+
+.day-recipe-card-content {
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px 0 0 5px;
+    background-color: rgb(255, 255, 255, 0.8);
+    width: 220px;
+    height: 220px;
+}
+
+.add-tip {
+    margin-left: 36%;
+}
+
+.add-tip h5 {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 40px;
+}

@@ -1,0 +1,62 @@
+.tips-section {
+    background-color: white;
+    flex-grow: 1;
+    margin-left: 20px;
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+    max-height: 250px;
+    /* Set maximum height */
+    padding: 10px;
+}
+
+.tips-title {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.tips-container {
+    display: flex;
+    flex-direction: column;
+    /* Arrange tips vertically */
+    gap: 10px;
+    /* Add gap between tips */
+}
+
+.tip-card {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.tip-card:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+    /* Add horizontal line between tips */
+}
+
+.tip-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.tip-description {
+    color: black;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.add-tip {
+    margin-left: 36%;
+}
+
+.add-tip h5 {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 40px;
+}
